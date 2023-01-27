@@ -1,0 +1,93 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 50px;
+  background-color: #FF9A4B
+}
+
+main {
+  width: 960px; /* 横幅960px */
+  display: flex; /* Flexboxの利用 */
+  margin: 50px auto; /* 要素の中央揃え */
+}
+
+.contents {
+  width: 300px;
+  margin-right: 30px;
+  padding: 10px;
+  position: relative;
+  background-color: #EEEEEE;
+}
+
+.contents last-child{
+  margin-right: 0;
+}
+
+
+.step-img1 {
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.step-img2 {
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.step-img3 {
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.step-number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #FF9A4B;
+  color: #fff;
+}
+
+.contents-text-heading {
+  padding: 15px 0 5px;
+}
+
+footer {
+  width: 100%; /* 横幅100% */
+  height: 50px; /* 高さ50px */
+  background-color: #AAAAAA;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+
+main {
+    width: 100%;
+    display:  block;
+  }
+
+.contents {
+  width: 90%;
+  margin-bottom: 20px;
+  background-color: #EEEEEE;
+}
+
+}
