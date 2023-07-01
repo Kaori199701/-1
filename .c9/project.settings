@@ -1,12 +1,12 @@
 {
     "ace": {
-        "@tabSize": 2
+        "@tabSize": 2,
+        "@useSoftTabs": true
     },
     "build": {
         "@saveall": true
     },
     "extensions": {
-        "@aws.profile": "",
         "@editor.acceptSuggestionOnEnter": "on",
         "@editor.snippetSuggestions": "top",
         "@editor.suggest.preview": true,
@@ -51,8 +51,8 @@
     "workspace": {
         "@folders": [
             {
-                "name": "sites",
-                "path": "/sites"
+                "name": "Hora_ARMS",
+                "path": "/Hora_ARMS"
             }
         ]
     }
